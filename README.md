@@ -1,11 +1,5 @@
+Para executar a aplicação, utilize a classe main do Spring Boot LeilaoApplication
 
+Está usando um banco de dados em memória, para popular as tabelas, chame a URL http://localhost:8080/db/seed
 
-Subir o APP
-
-Acessar localhost:8080/h2-console, inserir na URL de conexão exatamente o que está no properties de test ex: jdbc:h2:mem:leiloes e clicar em conectar.
-
-Acessar a URL localhost:8080/db/seed para popular as tabelas.
-
-Login: funalo
-
-Senha: pass
+Página inicial http://localhost:8080/leiloes (user: fulano, pass: pass)
